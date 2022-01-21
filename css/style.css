@@ -4,3 +4,62 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+header{
+    position: fixed;
+    top: 3rem;
+    right: 2rem;
+    z-index: 1;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.element {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    margin-left: 1.5rem;
+}
+
+.height-100vh{
+    height: 100vh;
+    position: relative;
+}
+
+#red{background-color: red; color: yellow;}
+#green{background-color: green; color: yellow;}
+#yellow{background-color: yellow; color: green;}
+
+.box-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-description{
+    width: 100%;
+    padding: 0 14rem;
+}
+
+
