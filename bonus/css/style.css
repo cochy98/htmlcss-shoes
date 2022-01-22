@@ -40,11 +40,23 @@ ul li{
 .element {
     width: 45px;
     height: 45px;
-    background-color: white;
     line-height: 45px;
+    background-color: white;
     border-radius: 50%;
-    font-size: 1.2em;
     margin-left: 1.5rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Quando sono in hover sul link, il font diventa più grande, cambia colore il testo e lo sfondo */
+a:hover>.element{
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 /* Altezza che prende tutto lo spazio a disposizione */
@@ -69,4 +81,9 @@ ul li{
 .img-description{
     width: 100%;
     padding: 0 14rem;
+}
+
+/* Quando sono in hover sull'immagine si ingrandisce leggermente */
+.box-image>img:hover {
+    transform: scale(1.2);
 }
