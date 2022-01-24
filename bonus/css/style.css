@@ -5,11 +5,17 @@
     padding: 0;
 }
 
+/* Scroll animato su tutta la pagina */
+html{
+    scroll-behavior: smooth;
+}
+
 /* Setto regole al font a tutto il body */
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
+    
 }
 
 /* Il container che wrappa tutto ha una larghezza del 100% */
